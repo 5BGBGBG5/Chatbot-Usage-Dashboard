@@ -285,7 +285,7 @@
             a.href = url;
             a.download = `${sanitizedCompanyName}-ERP-Discovery-${timestamp}.html`;
             document.body.appendChild(a);
-            a.click();
+a.click();
             document.body.removeChild(a);
             URL.revokeObjectURL(url);
         }
